@@ -72,9 +72,13 @@ a {
   .copyright{
     display:none !important;
   }
+  .search-bar{
+    width: 45vw
+  }
+ 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 537px) {
   .scroll-horizontal {
     overflow: auto !important;
   }
@@ -83,6 +87,6 @@ a {
     height: 45vh !important;
   }
   .search-bar{
-    width:200px;
+    width: 70%
   }
 }
